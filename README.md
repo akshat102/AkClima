@@ -15,4 +15,4 @@ a weather forecast app in flutter.
 - Spinner<br />
 
 # UI and Functionalities<br>
-<center><h2> IMAGES </h2></center>
+<p align="center"><h2> IMAGES </h2></p>

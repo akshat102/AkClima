@@ -24,6 +24,4 @@ const kTextFieldInputDecoration = InputDecoration(
 );
 
 const bgColor = Color(0xff00001a);
-const apikey ='a6a9f4f2ad1441f842cb98ee465cbe40';
-
 const openweatherMapURL = 'http://api.openweathermap.org/data/2.5/weather';

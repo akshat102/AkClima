@@ -23,4 +23,5 @@ a weather forecast app in flutter.
  <img src = 'images/fourth.jpg' height = 300 width = 150 hspace=7 >
  <img src = 'images/fifth.jpg' height = 300 width = 150 hspace=7 >
  </p>
- <img src = 'images/vids.gif' height = 400 width = 200 hspace=150 >
+ <br /><br /><br />
+ <img src = 'images/vids.gif' height = 400 width = 200 hspace=250 >

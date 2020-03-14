@@ -15,7 +15,7 @@ a weather forecast app in flutter.
 - Spinner<br />
 
 # UI and Functionalities<br>
- <img src = 'images/vids.gif' height = 600 width = 400 hspace=300 >
+ <img src = 'images/vids.gif' height = 500 width = 250 hspace=300 >
  <br /><br /><br />
  <p>
  <img src = 'images/first.jpg' height = 300 width = 150 hspace=7 >

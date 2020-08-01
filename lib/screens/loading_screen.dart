@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:clima/screens/animated_screen.dart';
 import 'package:clima/screens/location_screen.dart';
 import 'package:clima/services/weather.dart';
 import 'package:connectivity/connectivity.dart';

@@ -5,8 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:clima/services/weather.dart';
 import 'package:weather_icons/weather_icons.dart';
 
-import 'animated_screen.dart';
-
 
 class LocationScreen extends StatefulWidget {
   final dynamic locationweather;

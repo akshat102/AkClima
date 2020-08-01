@@ -8,7 +8,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: LoadingScreen(),
+      home: Scaffold(
+        body: Stack(
+          children: <Widget>[
+            LoadingScreen(),
+          ],
+        ),
+      ),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.0.0@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/2dd935966b66e388ff402ac168f4110b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:clima/screens/animated_screen.dart';
 import 'package:clima/screens/location_screen.dart';
 import 'package:clima/services/weather.dart';
 import 'package:connectivity/connectivity.dart';
@@ -13,10 +14,12 @@ class LoadingScreen extends StatefulWidget {
 class _LoadingScreenState extends State<LoadingScreen> {
    var _connectionStatus = "unknown";
   Connectivity connectivity;
+   dynamic weatherData;
   StreamSubscription<ConnectivityResult> subscription;
 @override
   void initState() {
   super.initState();
+  //getLocation(context);
   connectivity = Connectivity();
   subscription =
       connectivity.onConnectivityChanged.listen((ConnectivityResult res) {
@@ -53,18 +56,21 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 
 void getLocation(BuildContext context) async {
-   dynamic weatherData =await WeatherModel().getLocationWeather();
-   Navigator.pushReplacement(context, MaterialPageRoute(builder:(context){
-     var locationScreen = LocationScreen(locationweather: weatherData,);
-     return locationScreen;
-   }));
- }
+    weatherData = await WeatherModel().getLocationWeather();
+    Navigator.pushReplacement(context,
+                MaterialPageRoute(
+                builder:(context){
+      var locationScreen = LocationScreen(locationweather: weatherData,);
+      return locationScreen;
+    }));
+
+}
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+  return Scaffold(
         body: Center(
-         child: SpinKitCircle(
+         child:SpinKitCircle(
            size: 100,
            color: Colors.blue,
            duration: Duration(seconds: 4),

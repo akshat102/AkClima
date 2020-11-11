@@ -20,7 +20,6 @@ a weather forecast app in flutter.
  <p>
  <img src = 'images/first.jpg' height = 300 width = 150 hspace=7 >
  <img src = 'images/second.jpg' height = 300 width = 150 hspace=7 >
- <img src = 'images/third.jpg' height = 300 width = 150 hspace=7 >
  <img src = 'images/fourth.jpg' height = 300 width = 150 hspace=7 >
  <img src = 'images/fifth.jpg' height = 300 width = 150 hspace=7 >
  </p>
